@@ -1,0 +1,123 @@
+.category-products {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.category-products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  li {
+      &:nth-of-type(odd) {
+        .item-left {
+          width: 600px;
+        }
+        .item-right {
+          width: calc(100% - 600px);
+          padding-left: 53px;
+        }
+      }
+
+      &:nth-of-type(even) {
+        .item-left {
+          width: 600px;
+          order: 2;
+        }
+        .item-right {
+          width: calc(100% - 600px);
+          padding-right: 53px;
+          order: 1;
+        }
+      }
+    }
+
+  .products-item {
+    display: flex;
+    .item- {
+      &left {
+        img {
+          border-radius: 10px;
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      &right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+          font-weight: 600;
+          font-size: 26px;
+          line-height: 32px;
+          margin-bottom: 11px;
+        }
+        > span {
+          display: block;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 24px;
+          margin-bottom: 24px;
+        }
+
+        p {
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 24px;
+          margin-bottom: 16px;
+        }
+        a.more {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 24px;
+          display: block;
+          color: $blue;
+          text-decoration: underline;
+        }
+
+        .item-price {
+          margin-bottom: 20px;
+
+          .old-price, .new-price, .save-cost {
+            display: inline-block;
+          }
+
+          .old-price {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-decoration: line-through;
+            margin-right: 7px;
+          }
+
+          .new-price {
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 24px;
+            margin-right: 23px;
+            color: $orange;
+          }
+
+          .save-cost {
+            background: #F0F5FE;
+            border-radius: 5px;
+            padding: 3px 14px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 25px;
+            span {
+              color: $orange;
+              font-weight: 700;
+            }
+          }
+        }
+        a {
+          width: 100%;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+

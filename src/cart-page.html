@@ -1,0 +1,77 @@
+@@include('header.html')
+
+<main>
+    <section class="cart">
+        <div class="container">
+            <a href="#" class="btn-back">
+                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.22773 11.3382L0.165235 6.38823C0.0562502 6.28167 -2.4657e-07 6.14073 -2.40409e-07 5.99979C-2.34248e-07 5.85885 0.0549134 5.71833 0.164812 5.61101L5.22731 0.66101C5.44704 0.446166 5.80317 0.446166 6.02255 0.66101C6.24192 0.875854 6.24227 1.22407 6.02255 1.43857L1.91953 5.44979L17.4375 5.44979C17.7484 5.44979 18 5.69729 18 5.99979C18 6.30229 17.7484 6.54979 17.4375 6.54979L1.91953 6.54979L6.02226 10.5614C6.24199 10.7762 6.24199 11.1244 6.02226 11.3389C5.80254 11.5534 5.4457 11.5548 5.22773 11.3382Z" fill="#4F5665"/>
+                </svg>
+                <span>
+                    Continue shopping
+                </span>
+            </a>
+            <form class="cart-form anim" data-anim-name="fade" data-anim-del="0" data-anim-dur="2000">
+                <div class="form-left">
+                    <label>
+                        <span>
+                            Name*
+                        </span>
+                        <input type="text" placeholder="Name">
+                    </label>
+                    <label>
+                        Surname*
+                        <input type="text" placeholder="Surname">
+                    </label>
+                    <label>
+                        Phone number*
+                        <input type="tel" placeholder="Phone number">
+                    </label>
+                    <label>
+                        Country*
+                        <input type="text" placeholder="Country">
+                    </label>
+                    <label>
+                        City*
+                        <input type="text" placeholder="City">
+                    </label>
+                    <label>
+                        Address*
+                        <input type="text" placeholder="House number and street name">
+                    </label>
+                    <label>
+                        Post code*
+                        <input type="tel" placeholder="Post code">
+                    </label>
+                </div>
+                <div class="form-right">
+                    <div class="form-top">
+                        items
+                    </div>
+                    <div class="form-middle">
+                        <h5>
+                            Payment methods
+                        </h5>
+                    </div>
+                    <div class="form-bottom">
+                        <div class="sum-payable">
+                            <span>
+                                Total
+                            </span>
+                            <span>
+                                $ 1797
+                            </span>
+                        </div>
+                        <button type="submit" class="btn-def">
+                            <span>
+                                Check out
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+@@include('footer.html')

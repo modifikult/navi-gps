@@ -1,0 +1,52 @@
+.hero-category {
+  margin: 40px 0 100px;
+
+  .container {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 76px 0 106px;
+  }
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+
+  h1, span {
+    color: #fff;
+  }
+  h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0 auto 17px;
+    max-width: 645px;
+  }
+  span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 72px;
+  }
+  a {
+    width: 306px;
+    height: 68px;
+  }
+}
+
+.hero-bg {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

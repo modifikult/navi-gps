@@ -1,0 +1,81 @@
+.cart {
+  .container {
+
+  }
+}
+
+.cart-form {
+  display: flex;
+  gap: 0 30px;
+
+  .form- {
+    &left, &top, &middle {
+      background: #FFFFFF;
+      box-shadow: 9px 8px 40px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      padding: 24px 16px;
+    }
+
+    &left {
+      width: 50%;
+
+      label {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+        &:not(:last-of-type) {
+          margin-bottom: 8px;
+        }
+      }
+
+      input {
+        border: 1px solid #E6E6E6;
+        border-radius: 4px;
+        padding: 12px 16px;
+        color: #4F5665;
+      }
+    }
+
+    &right {
+      width: 50%;
+    }
+
+    &middle {
+      margin-bottom: 32px;
+    }
+
+    &bottom {
+      .sum-payable {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+
+        span {
+          &:first-of-type {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            color: #4F5665;
+          }
+
+          &:last-of-type {
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 28px;
+            color: $orange;
+          }
+        }
+      }
+
+      button {
+        width: 100%;
+        height: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.hero {
+  margin: 40px 0 0;
+  overflow: hidden;
+
+  .container {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #4F5665 0%, #56627A 100%);
+    border-radius: 10px;
+    padding: 72px 49px 99px 80px;
+  }
+}
+
+.hero-left {
+  width: calc(100% - 472px);
+
+  h1, span {
+    color: #fff;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 22px;
+    max-width: 478px;
+    line-height: 50px;
+  }
+  span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 33px;
+  }
+  a {
+    width: 306px;
+    height: 68px;
+    margin: 0;
+  }
+}
+
+.hero-right {
+  width: 472px;
+  height: 266px;
+}

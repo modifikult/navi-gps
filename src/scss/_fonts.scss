@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-Medium.eot');
+  src: url('../fonts/Kanit-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-Medium.woff2') format('woff2'),
+  url('../fonts/Kanit-Medium.woff') format('woff'),
+  url('../fonts/Kanit-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-Light.eot');
+  src: url('../fonts/Kanit-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-Light.woff2') format('woff2'),
+  url('../fonts/Kanit-Light.woff') format('woff'),
+  url('../fonts/Kanit-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-LightItalic.eot');
+  src: url('../fonts/Kanit-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-LightItalic.woff2') format('woff2'),
+  url('../fonts/Kanit-LightItalic.woff') format('woff'),
+  url('../fonts/Kanit-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-Italic.eot');
+  src: url('../fonts/Kanit-Italic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-Italic.woff2') format('woff2'),
+  url('../fonts/Kanit-Italic.woff') format('woff'),
+  url('../fonts/Kanit-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-ExtraBold.eot');
+  src: url('../fonts/Kanit-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Kanit-ExtraBold.woff') format('woff'),
+  url('../fonts/Kanit-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-Thin.eot');
+  src: url('../fonts/Kanit-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-Thin.woff2') format('woff2'),
+  url('../fonts/Kanit-Thin.woff') format('woff'),
+  url('../fonts/Kanit-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-ThinItalic.eot');
+  src: url('../fonts/Kanit-ThinItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-ThinItalic.woff2') format('woff2'),
+  url('../fonts/Kanit-ThinItalic.woff') format('woff'),
+  url('../fonts/Kanit-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-MediumItalic.eot');
+  src: url('../fonts/Kanit-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-MediumItalic.woff2') format('woff2'),
+  url('../fonts/Kanit-MediumItalic.woff') format('woff'),
+  url('../fonts/Kanit-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-Bold.eot');
+  src: url('../fonts/Kanit-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-Bold.woff2') format('woff2'),
+  url('../fonts/Kanit-Bold.woff') format('woff'),
+  url('../fonts/Kanit-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-BoldItalic.eot');
+  src: url('../fonts/Kanit-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-BoldItalic.woff2') format('woff2'),
+  url('../fonts/Kanit-BoldItalic.woff') format('woff'),
+  url('../fonts/Kanit-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-SemiBold.eot');
+  src: url('../fonts/Kanit-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-SemiBold.woff2') format('woff2'),
+  url('../fonts/Kanit-SemiBold.woff') format('woff'),
+  url('../fonts/Kanit-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-ExtraBoldItalic.eot');
+  src: url('../fonts/Kanit-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-ExtraBoldItalic.woff2') format('woff2'),
+  url('../fonts/Kanit-ExtraBoldItalic.woff') format('woff'),
+  url('../fonts/Kanit-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-Regular.eot');
+  src: url('../fonts/Kanit-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-Regular.woff2') format('woff2'),
+  url('../fonts/Kanit-Regular.woff') format('woff'),
+  url('../fonts/Kanit-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-Black.eot');
+  src: url('../fonts/Kanit-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-Black.woff2') format('woff2'),
+  url('../fonts/Kanit-Black.woff') format('woff'),
+  url('../fonts/Kanit-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-ExtraLightItalic.eot');
+  src: url('../fonts/Kanit-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-ExtraLightItalic.woff2') format('woff2'),
+  url('../fonts/Kanit-ExtraLightItalic.woff') format('woff'),
+  url('../fonts/Kanit-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-ExtraLight.eot');
+  src: url('../fonts/Kanit-ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-ExtraLight.woff2') format('woff2'),
+  url('../fonts/Kanit-ExtraLight.woff') format('woff'),
+  url('../fonts/Kanit-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-SemiBoldItalic.eot');
+  src: url('../fonts/Kanit-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-SemiBoldItalic.woff2') format('woff2'),
+  url('../fonts/Kanit-SemiBoldItalic.woff') format('woff'),
+  url('../fonts/Kanit-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-BlackItalic.eot');
+  src: url('../fonts/Kanit-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Kanit-BlackItalic.woff2') format('woff2'),
+  url('../fonts/Kanit-BlackItalic.woff') format('woff'),
+  url('../fonts/Kanit-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
